@@ -1,0 +1,2 @@
+ALTER TABLE public.courses
+  ADD COLUMN IF NOT EXISTS price numeric(10,2) NOT NULL DEFAULT 0;

@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "select_own_course_enrollments" ON course_enrollments;

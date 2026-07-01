@@ -1,0 +1,19 @@
+{
+  "name": "ilesy-academy-whatsapp-service",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Baileys-based WhatsApp notification backend for Ilesy Academy",
+  "scripts": {
+    "start": "node server.js",
+    "service": "node whatsappService.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "@hapi/boom": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pino": "^9.4.0",
+    "qrcode": "^1.5.4"
+  }
+}
